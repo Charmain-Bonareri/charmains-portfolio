@@ -46,10 +46,10 @@ nav ul li a{
     color: #fff; font-size: 18px;text-transform: uppercase;padding: 0px 32px; text-decoration: solid;font-weight: 800;
 }
 nav ul li a:hover{
-color:#37b323;
+color:#ff69b4;
 }
 nav ul li .active{
-    color:#37b323;
+    color:#ff69b4;
 }
 .one{
     font-size:x-large;
@@ -72,7 +72,7 @@ nav ul li .active{
     display: inline-flex;
     height: 50px;
     padding: 0;
-    background-color: #37b323;
+    background-color: hotpink;
     align-items: center;
     border: none;
     outline: none;
@@ -89,7 +89,7 @@ button{
     padding: 25px;
     border-radius: 40px;
     margin: 20px;
-    background-color: #37b323;
+    background-color: #ff69b4;
     font-family: 'Montserrat', sans-serif;
     border: none;
     outline: none;
@@ -98,10 +98,10 @@ button{
     cursor: pointer;
 }
 button:hover{
-background: #37b323;
+background: #b4167f;
 }
 button:active{
-    background-color: rgb(3, 71, 3);
+    background-color: rgb(175, 17, 96);
 }
 
 #container{
