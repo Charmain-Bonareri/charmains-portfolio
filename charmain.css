@@ -2,9 +2,7 @@ body{
     background-image: url(./charmain-images/whitebackground.png)
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Montserrat:wght@200&display=swap');
 * {
 margin: 0px; 
 padding: 0px; 
@@ -111,12 +109,14 @@ container{
     margin: 150px auto;
     width: 50%;
     padding: 8px;
+    display:flex;
+    justify-content: left;
+   
 }
 img
 {
 float: left;
 padding: 0 10px 0 0;
-
 }
 text{
     text-align: justify;
@@ -124,4 +124,12 @@ text{
 h1{
     font-weight: 900;
     text-align: center;
+    color: #37b323;
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    font-size: large;
+    font-weight: 300;
+    text-align: justify;
 }
