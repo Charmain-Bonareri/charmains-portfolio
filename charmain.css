@@ -1,0 +1,109 @@
+body{
+    background-image: url(./charmain-images/whitebackground.png)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:wght@200&display=swap');
+
+* {
+margin: 0px; 
+padding: 0px; 
+font-family: 'Montserrat', sans-serif; 
+box-sizing: border-box ;
+
+}
+
+nav{
+    width: 100%; 
+    height: 75px;
+    background-color: #Ebebf1;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:fixed;
+    z-index: 1;
+}
+nav.logo{
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+}
+
+nav p.logo {
+    float: left;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: 800;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display:inline-block; 
+    list-style:none;
+    font-weight: 800;
+}
+nav ul li a{
+    color: #fff; font-size: 18px;text-transform: uppercase;padding: 0px 32px; text-decoration: solid;font-weight: 800;
+}
+nav ul li a:hover{
+color:#37b323;
+}
+nav ul li .active{
+    color:#37b323;
+}
+.one{
+    font-size:x-large;
+    font-style: italic;
+    color: #Ebebf1;
+    position: absolute;
+    top: 40%;
+    font-family: 'EB Garamond', serif;
+    
+    
+}
+.two{
+    font-size: 350%;
+    color: #Ebebf1;
+    position: absolute;
+    top: 45%;
+    
+}
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background-color: #37b323;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+button{
+    font-size: 22px;
+    padding: 25px;
+    border-radius: 40px;
+    margin: 20px;
+    background-color: #37b323;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-weight: 550;
+    cursor: pointer;
+}
+button:hover{
+background: #218a11;
+}
+button:active{
+    background-color: rgb(3, 71, 3);
+}
+
+#container{
+    text-align: center; 
+}
