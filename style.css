@@ -120,7 +120,8 @@ button:active{
 {
 float: left;
 padding: 0 10px 0 0;
-top: 400px;
+position: absolute;
+top: 50px;
 }
 #text{
     text-align: justify;
@@ -144,7 +145,7 @@ p{
     width: 25%;
     position: absolute;
     z-index: 1;
-    top: 1400px;
+    top: 1300px;
     overflow-x:hidden
     padding top: 20px;
 }
