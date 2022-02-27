@@ -3,14 +3,13 @@
 This is going to be a brief description of the landing page that showcases my portfolio.
 ### By Charmain Bonareri, 25/02/2022
 
-<img alt="Charmain's Portfolio" title="Charmain's Portfolio" src="./charmain-images/readmeimage.png" height="600">
+<img alt="Charmain's Portfolio" title="Charmain's Portfolio" src="./charmain-images/readmeimage.png" height="500">
 
 ## Table of contents
 * [Description](#description)
 * [Setup and Installation Requirements](#setup)
 * [Technologies](#technologies)
 * [Development](#development)
-* [Known Bugs](#known bugs)
 * [Licence](#licence)
 * [Authors information](#contact)
 
