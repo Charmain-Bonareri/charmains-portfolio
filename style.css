@@ -20,11 +20,12 @@ box-sizing: border-box;
 nav{
     width: 100%; 
     height: 75px;
-    background-color: #Ebebf1;
+    background-color: #04040c;
     line-height: 75px;
     padding: 0px 100px;
-    position:fixed;
+    position:absolute;
     z-index: 1;
+    float: right;
 }
 nav.logo{
     font-size: 30px;
@@ -33,13 +34,15 @@ nav.logo{
 }
 
 nav p.logo {
-    float: left;
+    float: right;
     color: #fff;
     text-transform:uppercase;
     font-weight: 800;
+    
 }
 nav ul{
     float: right;
+       top: 0px;
 }
 nav li{
     display:inline-block; 
@@ -47,7 +50,7 @@ nav li{
     font-weight: 800;
 }
 nav ul li a{
-    color: #fff; font-size: 18px;text-transform: uppercase;padding: 0px 32px; text-decoration: solid;font-weight: 800;
+    color: #fff; font-size: 18px;text-transform: uppercase;padding: 0px 32px; text-decoration: solid;font-weight: 800; text-align: right;
 }
 nav ul li a:hover{
 color:#37b323;
@@ -151,7 +154,7 @@ p{
     width: 25%;
     position: absolute;
     z-index: 1;
-    top: 1300px;
+    top: 1400px;
     overflow-x:hidden
     padding top: 20px;
 }
@@ -173,11 +176,11 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    text-align: center;
+    text-align: left;
 }
 .centered h2{
     font-size: 2em;
-    margin: 0;
+    margin: 6px;
     padding: 0;
     font-weight: bold;
     
@@ -187,7 +190,7 @@ p{
 .text-box{
     position: relative;
     color: black;
-    top: 350px;
+    top: 450px;
     width: 200px;
     height: 70px;
     margin: 240px auto;
@@ -204,8 +207,11 @@ p{
 }
 
 .paragraph{
-    top: 2200px;
+    top: 2300px;
     position: absolute;
+    text-align: center;
+    font-size: larger;
+    
 }
 
 ol{
@@ -234,7 +240,7 @@ ol li a
     text-decoration: none;
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
     background: linear-gradient(0deg, #ddd, #fff);
-    top: 300px;
+    top: 400px;
     transition: .5s;
     ter;
 }
