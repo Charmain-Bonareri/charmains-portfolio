@@ -2,12 +2,18 @@ body{
     background-image: url(./charmain-images/whitebackground.png)
 }
 
+html,body
+{
+    height:100%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Montserrat:wght@200&display=swap');
 * {
 margin: 0px; 
 padding: 0px; 
 font-family: 'Montserrat', sans-serif; 
-box-sizing: border-box ;
+box-sizing: border-box;
+
 
 }
 
@@ -174,8 +180,31 @@ p{
     margin: 0;
     padding: 0;
     font-weight: bold;
+    
 
 }
+
+.text-box{
+    position: relative;
+    color: black;
+    top: 350px;
+    width: 200px;
+    height: 70px;
+    margin: 240px auto;
+    background-color:white ;
+    border: 6px solid #37b323;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    text-align: center;
+    font-style: italic
+   
+  
+  
+}
+
 
 
 
