@@ -12,7 +12,7 @@ This is going to be a brief description of the landing page that showcases my po
 * [Authors information](#contact)
 
 ## Description
-<p>This is a portfolio site to showcase my proffessional and non-professional competencies.It contains an about me section which describes who I am, An academic and skills section where you can see what I'm good at and the  institutions I have attended, there is also a section that shows some of the projects I have done and lastly my contact information.</p>
+<p>This is my first portfolio website that provides information about my professional competencies and showcases my work. It contains an about me section which describes who I am in depth, an education background section where you can see what I studied and the institutions I have attended, a hobbies section that outlines my passions and what I do often during my free time. There is also a section that shows some of the projects I have done and lastly my contact information.</p>
 	
 ## Setup and Installation Requirements
 To run this program:
@@ -25,16 +25,16 @@ $ Make changes where need be.
 ```
 
 ## Technologies
-* HTML
-* CSS
-* Java Script 
+* HTML - HTML is the standard markup language for Web pages.
+* CSS - CSS is the language we use to style an HTML document.
+* Java Script - JavaScript is the programming language of the Web.
 
 ## How it works
 
 
 # Licence
 MIT Licence 
-copyright (c) 2022 Charmain Bonareri
+copyright (c) 2022 Charmain Bonareri. All Rights Reserved.
 
 ## Authors information
 Feel free to add your contribution to the code.
