@@ -3,6 +3,8 @@
 This is going to be a brief description of the landing page that showcases my portfolio.
 ### By Charmain Bonareri, 25/02/2022
 
+<img src=".//home/charmain/Desktop/charmain-first-ip/charmains-first-ip/charmain-images/readmeimage.png">
+
 ## Table of contents
 * [Description](#description)
 * [Setup and Installation Requirements](#setup)
@@ -29,15 +31,13 @@ $ Make changes where need be.
 * CSS - CSS is the language we use to style an HTML document.
 * Java Script - JavaScript is the programming language of the Web.
 
-## How it works
-
 
 # Licence
 MIT Licence 
 copyright (c) 2022 Charmain Bonareri. All Rights Reserved.
 
 ## Authors information
-Feel free to add your contribution to the code.
+Contributions are always welcome! 
 If you have any questions,comments or correctional advice,feel free to contact me
 * Email: mogerecharmain@gmail.com
 * [LinkedIn](https://www.linkedin.com/in/charmain-bonareri-71a209126/)
