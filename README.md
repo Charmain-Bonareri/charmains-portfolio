@@ -3,7 +3,7 @@
 This is going to be a brief description of the landing page that showcases my portfolio.
 ### By Charmain Bonareri, 25/02/2022
 
-<img src=".//home/charmain/Desktop/charmain-first-ip/charmains-first-ip/charmain-images/readmeimage.png">
+<img alt="Charmain's Portfolio" title="Charmain's Portfolio" src="./charmain-images/readmeimage.png" width="450">
 
 ## Table of contents
 * [Description](#description)
