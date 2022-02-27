@@ -9,7 +9,8 @@ This is going to be a brief description of the landing page that showcases my po
 * [Description](#description)
 * [Setup and Installation Requirements](#setup)
 * [Technologies](#technologies)
-* [How it Works](#instructions)
+* [Development](#development)
+* [Known Bugs](#known bugs)
 * [Licence](#licence)
 * [Authors information](#contact)
 
@@ -21,8 +22,9 @@ To run this program:
 
 ```
 $ Fork the repository from my git hub.
-$ Clone the project to your local machine.
-$ Run the code from VS Code through a liveserver to chrome browser.
+$ Clone this repository to a location in your file system.
+$ Open terminal command line then navigate to the root folder of the application.
+$ Run the code from VS Code or Atom through a liveserver to chrome browser.
 $ Make changes where need be.
 ```
 
@@ -31,6 +33,23 @@ $ Make changes where need be.
 * CSS - CSS is the language we use to style an HTML document.
 * Java Script - JavaScript is the programming language of the Web.
 
+## Development
+Want to contribute? 
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch (git checkout -b improve-feature)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (git commit -am 'Improve feature')
+- Push to the branch (git push origin improve-feature)
+- Create a Pull Request
+
+## Known Bugs
+
+\*If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 # Licence
 MIT Licence 
