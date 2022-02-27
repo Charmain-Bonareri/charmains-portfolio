@@ -8,13 +8,12 @@ html,body
 }
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Montserrat:wght@200&display=swap');
+
 * {
 margin: 0px; 
 padding: 0px; 
 font-family: 'Montserrat', sans-serif; 
 box-sizing: border-box;
-
-
 }
 
 nav{
@@ -27,6 +26,7 @@ nav{
     z-index: 1;
     float: right;
 }
+
 nav.logo{
     font-size: 30px;
     font-weight:bold;
@@ -44,6 +44,7 @@ nav ul{
     float: right;
        top: 0px;
 }
+
 nav li{
     display:inline-block; 
     list-style:none;
@@ -52,29 +53,31 @@ nav li{
 nav ul li a{
     color: #fff; font-size: 18px;text-transform: uppercase;padding: 0px 32px; text-decoration: solid;font-weight: 800; text-align: right;
 }
+
 nav ul li a:hover{
 color:#37b323;
 }
+
 nav ul li .active{
     color:#37b323;
 }
+
 .one{
     font-size:x-large;
     color: #Ebebf1;
     position: absolute;
     top: 40%;
     font-family: 'EB Garamond', serif;
-    font-style: italic;
-    
-    
+    font-style: italic;  
 }
+
 .two{
     font-size: 350%;
     color: #Ebebf1;
     position: absolute;
     top: 45%;
-    
 }
+
 .button{
     display: inline-flex;
     height: 50px;
@@ -123,8 +126,8 @@ button:active{
     padding: 6px;
     display:flex;
     align-items: center;
-     
 }
+
 #img
 {
 float: left;
@@ -132,10 +135,11 @@ padding: 0 10px 0 0;
 position: absolute;
 top: 50px;
 }
+
 #text{
     text-align: justify;
-    
 }
+
 h1{
     font-weight: 910;
     text-align: center;
@@ -143,6 +147,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
+
 p{
     font-size: large;
     font-weight: 300;
@@ -155,9 +160,10 @@ p{
     position: absolute;
     z-index: 1;
     top: 1400px;
-    overflow-x:hidden
-    padding top: 20px;
+    overflow-x:hidden;
+    padding-top:20px;
 }
+
 .left{
     left: 0;
 }
@@ -165,12 +171,15 @@ p{
 .right{
     right: 0;
 }
+
 .middle{
     left: 25%;
 }
+
 .middle1{
     left: 50%;
 }
+
 .centered{
     position: absolute;
     top: 50%;
@@ -178,13 +187,13 @@ p{
     transform: translate(-50%,-50%);
     text-align: left;
 }
+
 .centered h2{
     font-size: 2em;
     margin: 6px;
     padding: 0;
     font-weight: bold;
     text-align: center;
-
 }
 
 .text-box{
@@ -211,21 +220,20 @@ p{
     position: absolute;
     text-align: center;
     font-size: larger;
-    
 }
 
 ol{
      
     margin: 0;
     padding: 0;
+    float: right;
 }
+
 ol li
 {
     list-style: none;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
-    float: right;    
+     
 }
 
 ol li a
@@ -284,9 +292,11 @@ ol li:nth-child(5) a:hover .fa
 {
     color: #e4405f;
 }
+
 .close{
     position: relative;
-    top: 580px;
+    top: 550px;
+    align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
